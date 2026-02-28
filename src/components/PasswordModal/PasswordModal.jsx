@@ -11,7 +11,7 @@ const PasswordModal = ({ isOpen, onClose, onPasswordSubmit }) => {
   const handleSubmit = async (e) => {
     // Prevent the page from refreshing on form submit
     if (e) e.preventDefault();
-    
+
     setLoading(true);
     setError("");
 
@@ -26,7 +26,7 @@ const PasswordModal = ({ isOpen, onClose, onPasswordSubmit }) => {
 
       if (data.success) {
         // 1. Trigger the letter to show
-        onPasswordSubmit(); 
+        onPasswordSubmit();
         // 2. Close this modal
         onClose();
         // 3. Reset state
@@ -57,7 +57,7 @@ const PasswordModal = ({ isOpen, onClose, onPasswordSubmit }) => {
           </div>
           <h3 className="modal-title">Secret Envelope</h3>
           <p className="password-description">
-            Enter the special password to reveal your message
+            Enter the special password to reveal your message (Hint: The year we met)
           </p>
         </div>
 
@@ -67,8 +67,8 @@ const PasswordModal = ({ isOpen, onClose, onPasswordSubmit }) => {
             type="password"
             value={password}
             onChange={(e) => {
-                setPassword(e.target.value);
-                if(error) setError(""); // Clear error when user starts typing again
+              setPassword(e.target.value);
+              if (error) setError(""); // Clear error when user starts typing again
             }}
             placeholder="Enter password..."
             className="password-input"
