@@ -1,0 +1,37 @@
+/* components/Header/Header.css */
+.birthday-header {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(to right, #ec4899, #f43f5e);
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.header-subtitle {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: white;
+}
+
+.header-sparkle {
+  margin-top: 1rem;
+  animation: bounce 1s infinite;
+}
+
+.sparkle-icon {
+  font-size: 1.5rem;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

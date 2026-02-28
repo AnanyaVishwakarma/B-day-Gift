@@ -1,0 +1,57 @@
+.songs-modal {
+  max-width: 500px;
+  max-height: 85vh;
+  overflow-y: auto;
+  background: #fffafa; /* Light blush background */
+}
+
+.songs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.song-card {
+  background: #ffffff;
+  border: 1px solid #fecdd3;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.song-title {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  color: #e11d48;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.video-responsive {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Custom Scrollbar to make it look pretty */
+.songs-modal::-webkit-scrollbar {
+  width: 6px;
+}
+.songs-modal::-webkit-scrollbar-thumb {
+  background-color: #fecdd3;
+  border-radius: 10px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* THIS LINE IS THE KEY */
+  z-index: 9999; 
+}
