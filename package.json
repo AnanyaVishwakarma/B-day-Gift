@@ -1,7 +1,7 @@
 {
   "name": "birthdaygift",
   "version": "0.1.0",
-  "homepage": "https://AnanyaVishwakarma.github.io/B-day-Gift",
+  "homepage": "https://AnanyaVishwakarma.github.io/birthdaygift",
   "private": true,
   "type": "module",
   "proxy": "http://localhost:5000",
