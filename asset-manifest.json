@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/B-day-Gift/static/css/main.9322622c.css",
+    "main.js": "/B-day-Gift/static/js/main.444b5ff4.js",
+    "index.html": "/B-day-Gift/index.html",
+    "main.9322622c.css.map": "/B-day-Gift/static/css/main.9322622c.css.map",
+    "main.444b5ff4.js.map": "/B-day-Gift/static/js/main.444b5ff4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9322622c.css",
+    "static/js/main.444b5ff4.js"
+  ]
+}
